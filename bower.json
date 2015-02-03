@@ -1,0 +1,28 @@
+{
+  "name": "underscore.string.fp",
+  "version": "1.0.0",
+  "description": "This is an extension for underscore.string to use it as a FP-library or with ramda",
+  "homepage": "http://github.com/stoeffel/underscore.string.fp/",
+  "contributors": [
+    "Christoph Hermannd <schtoeffel@gmail.com> (<http://schtoeffel.ch>)"
+  ],
+  "keywords": [
+    "ramda",
+    "string",
+    "underscore.string"
+  ],
+  "main": "./dist/underscore.string.fp.js",
+  "ignore": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stoeffel/underscore.string.fp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stoeffel/underscore.string.fp/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

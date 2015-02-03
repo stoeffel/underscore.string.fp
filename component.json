@@ -1,0 +1,17 @@
+{
+  "name": "underscore.string.fp",
+  "repo": "epeli/underscore.string.fp",
+  "description": "This is an extension for underscore.string to use it as a FP-library or with ramda",
+  "version": "1.0.0",
+  "keywords": [
+    "ramda",
+    "string",
+    "underscore.string"
+  ],
+  "dependencies": {},
+  "development": {},
+  "main": "index.js",
+  "scripts": [
+    "*.js"
+  ]
+}
