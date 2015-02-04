@@ -1,6 +1,6 @@
 # Underscore.string.fp [![Build Status](https://secure.travis-ci.org/stoeffel/underscore.string.fp.png?branch=master)](http://travis-ci.org/stoeffel/underscore.string.fp) #
 
-> This is an extension for [underscore.string](epeli.github.io/underscore.string/) to use it as a FP-library or with [Ramda](ramdajs.com)
+> This is a wrapper for [underscore.string](http://epeli.github.io/underscore.string/) to use it as a FP-library or with [Ramda](http://ramdajs.com)
 
 ## Usage 
 
