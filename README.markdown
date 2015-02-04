@@ -1,6 +1,6 @@
 # Underscore.string.fp [![Build Status](https://secure.travis-ci.org/stoeffel/underscore.string.fp.png?branch=master)](http://travis-ci.org/stoeffel/underscore.string.fp) #
 
-> This is a wrapper for [underscore.string](http://epeli.github.io/underscore.string/) to use it as a FP-library or with [Ramda](http://ramdajs.com)
+> This is a wrapper for [underscore.string](http://epeli.github.io/underscore.string/) to use it as a FP-library or with a library like [lodash-fp](https://github.com/lodash/lodash-fp) or [Ramda](http://ramdajs.com)
 
 ## Usage 
 
@@ -67,6 +67,27 @@ R.map(S.camelize(), [
 
 ```js
 R.filter(S.startsWith('.'), [
+  '.vimrc',
+  'foo.md',
+  '.zshrc'
+]);
+// => ['.vimrc', '.zshrc']
+```
+
+### lodash-fp integration
+
+You can use it with [lodash-fp](https://github.com/lodash/lodash-fp).
+
+```js
+_.map(S.camelize(), [
+  'Moo boo',
+  'Foo bar'
+]);
+// => ['mooBoo', 'fooBoo']
+```
+
+```js
+_.filter(S.startsWith('.'), [
   '.vimrc',
   'foo.md',
   '.zshrc'

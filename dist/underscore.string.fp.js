@@ -118,13 +118,13 @@ module.exports = function() {
 //  Underscore.string is freely distributable under the terms of the MIT license.
 //  Documentation: https://github.com/epeli/underscore.string
 //  Some code is borrowed from MooTools and Alexandru Marasteanu.
-//  Version '3.0.2'
+//  Version '1.0.3'
 
 'use strict';
 
 var S = _dereq_('compose-function');
 
-S.VERSION = '3.0.2';
+S.VERSION = '1.0.3';
 
 S.isBlank          = _dereq_('./isBlank');
 S.stripTags        = _dereq_('./stripTags');
