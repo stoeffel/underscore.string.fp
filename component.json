@@ -2,7 +2,7 @@
   "name": "underscore.string.fp",
   "repo": "epeli/underscore.string.fp",
   "description": "This is an extension for underscore.string to use it as a FP-library or with ramda",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "ramda",
     "string",

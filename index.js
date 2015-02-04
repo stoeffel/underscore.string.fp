@@ -3,13 +3,13 @@
 //  Underscore.string is freely distributable under the terms of the MIT license.
 //  Documentation: https://github.com/epeli/underscore.string
 //  Some code is borrowed from MooTools and Alexandru Marasteanu.
-//  Version '3.0.2'
+//  Version '1.0.1'
 
 'use strict';
 
 var S = require('compose-function');
 
-S.VERSION = '3.0.2';
+S.VERSION = '1.0.1';
 
 S.isBlank          = require('./isBlank');
 S.stripTags        = require('./stripTags');
