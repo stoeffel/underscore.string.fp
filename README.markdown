@@ -97,7 +97,7 @@ numberFormat(1000);
 Formats the numbers.
 
 ```javascript
-numberFormat(2)(1000);
+numberFormatDecimal(2)(1000);
 // => "1,000.00"
 ```
 
@@ -106,7 +106,7 @@ numberFormat(2)(1000);
 Formats the numbers.
 
 ```javascript
-numberFormat(".", "'", 5, 123456789.123);
+numberFormatSeparator(".", "'", 5, 123456789.123);
 // => "123'456'789.12300"
 ```
 
