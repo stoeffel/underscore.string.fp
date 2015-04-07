@@ -1,6 +1,6 @@
 {
   "name": "underscore.string.fp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a wrapper for underscore.string to use it as a FP-library or with a library like lodash-fp or ramda",
   "homepage": "http://github.com/stoeffel/underscore.string.fp/",
   "contributors": [
@@ -55,7 +55,7 @@
   },
   "dependencies": {
     "chickencurry": "1.1.1",
-    "compose-function": "1.4.1",
+    "compose-function": "^2.0.0",
     "reverse-arguments": "1.0.0",
     "underscore.string": "3.0.3"
   }
