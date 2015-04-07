@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'underscorestringfp:underscore.string.fp',
+  name: 'stoeffel:underscore.string.fp',
   version: '1.0.4',
-  summary: 'underscore.string.fp (official): A wrapper for underscore.string to use it as a ' +
+  summary: 'A wrapper for underscore.string to use it as a ' +
     'FP-library or with Ramda/lodash-fp.',
   git: 'https://github.com/stoeffel/underscore.string.fp',
   documentation: 'README.markdown',
